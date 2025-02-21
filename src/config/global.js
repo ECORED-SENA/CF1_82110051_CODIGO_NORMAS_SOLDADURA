@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Fundamentos normativos en soldadura y normalización existente',
+    Description:
+      'El componente formativo  aborda la importancia de la normalización en soldadura, destacando cómo códigos, normas y especificaciones garantizan calidad, seguridad y trazabilidad en proyectos. Describe las etapas para elaborar documentos normativos y su aplicación nacional e internacional, con ejemplos de estándares utilizados en Colombia. Incluye glosario, bibliografía y créditos de desarrollo del contenido.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +36,26 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Antecedentes de la soldadura',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Normalización en soldadura',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Etapas en la creación de documentos normativos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Uso nacional e internacional',
+            hash: 't_2_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,21 +105,112 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Antecedentes de la soldadura',
+      referencia:
+        'Interweld, C.A. (2016). La Soldadura | Maravillas Modernas. [Archivo de video] Youtube.',
+      tipo: 'VIDEO',
+      link:
+        'https://www.youtube.com/watch?v=Nyl2qj_hMvs&ab_channel=Interweld%2CC.A',
+    },
+    {
+      tema: 'Normalización en soldadura',
+      referencia:
+        'Capacitación Industrial. (2023). Seguridad para Corte y Soldadura, NOM-027-STPS. [Archivo de video] Youtube.',
+      tipo: 'VIDEO',
+      link:
+        'https://www.youtube.com/watch?v=YWLFrlibDJI&ab_channel=Capacitaci%C3%B3nIndustrial',
+    },
+    {
+      tema: 'Normalización en soldadura',
+      referencia: 'Sena. (2005). Confiabilidad de las Soldaduras.',
+      tipo: 'DOCUMENTO',
+      descarga: '/downloads/Confiabilidad.pdf',
+    },
+    {
+      tema: 'Uso nacional e internacional',
+      referencia:
+        'APRENDIZ NDT. (2022).NORMAS QUE RIGEN LA SOLDADURA. [Archivo de video] Youtube.',
+      tipo: 'VIDEO',
+      link:
+        'https://www.youtube.com/watch?v=wWAubgtJfHI&ab_channel=APRENDIZNDT',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Código',
+      significado:
+        'conjunto de requisitos aplicables al diseño, fabricación, inspección y mantenimiento de equipos.',
+    },
+    {
+      termino: 'Conformidad',
+      significado:
+        'cumplimiento de requisitos de documentos normativos o contractuales.',
+    },
+    {
+      termino: 'Ensayo no destructivo',
+      significado:
+        'método para evaluar propiedades de materiales sin causar daño permanente al objeto evaluado.',
+    },
+    {
+      termino: 'Especificación',
+      significado:
+        'documento que detalla requisitos esenciales para un material, sistema o servicio.',
+    },
+    {
+      termino: 'Jerarquía',
+      significado:
+        'estructura de subordinación entre documentos normativos basada en criterios de superioridad.',
+    },
+    {
+      termino: 'Norma',
+      significado:
+        'documento técnico aprobado que establece reglas o criterios aplicables a un proceso o producto.',
+    },
+    {
+      termino: 'Obligatorio',
+      significado:
+        'requisitos exigidos por documentos normativos que deben demostrarse con evidencias objetivas.',
+    },
+    {
+      termino: 'Requisitos',
+      significado:
+        'condiciones necesarias para el desarrollo de un proceso, establecidos por normativas.',
+    },
+    {
+      termino: 'Soldadura',
+      significado:
+        'proceso de unión que produce coalescencia de materiales al calentarlos, con o sin metal de aporte.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'procedimientos documentados que permiten seguir la evolución de un producto en cada etapa.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Congreso de la República de Colombia. (2010). <em>Código Colombiano de Construcción Sismoresistente NSR 2010.</em>',
+      link: '',
+    },
+    {
+      referencia:
+        'República de Colombia. (2010). <em>Decreto 926 de 2010. Por el cual se adopta el Reglamento Técnico de Construcciones Sismo Resistentes NSR-10. Diario Oficial No. 47.638.</em>',
+      link: '',
+    },
+    {
+      referencia:
+        'Hernández R., G. (2014). <em>Manual del soldador (14.ª ed.). CESOL.</em>',
+      link: '',
+    },
+    {
+      referencia:
+        'Mike, L. (2015). <em>Códigos, normas y especificaciones. Soldadura Latinoamericana.American Welding Society. (2010). AWS A3.0: Standard Welding Terms and Definitions. American Welding Society.</em>',
+      link: '',
+    },
+    {
+      referencia:
+        'American Welding Society. (2010). <em>AWS D1.1: Structural Welding Code. American Welding Society.</em>',
       link: '',
     },
   ],
@@ -125,14 +219,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Olga Constanza Bermudez Jaimes',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -140,9 +234,15 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Ángela Viviana Páez Perilla',
+          cargo: 'Experta temático',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -150,19 +250,16 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julián Ramírez Benítez',
           cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edgar Mauricio Cortes García',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -170,14 +267,16 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
