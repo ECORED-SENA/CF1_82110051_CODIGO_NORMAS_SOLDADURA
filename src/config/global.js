@@ -107,7 +107,7 @@ export default {
     {
       tema: 'Antecedentes de la soldadura',
       referencia:
-        'Interweld, C.A. (2016). La Soldadura | Maravillas Modernas. [Archivo de video] Youtube.',
+        'Interweld, C.A. (2016). La Soldadura | Maravillas Modernas. [Archivo de video] YouTube.',
       tipo: 'VIDEO',
       link:
         'https://www.youtube.com/watch?v=Nyl2qj_hMvs&ab_channel=Interweld%2CC.A',
@@ -115,7 +115,7 @@ export default {
     {
       tema: 'Normalización en soldadura',
       referencia:
-        'Capacitación Industrial. (2023). Seguridad para Corte y Soldadura, NOM-027-STPS. [Archivo de video] Youtube.',
+        'Capacitación Industrial. (2023). Seguridad para Corte y Soldadura, NOM-027-STPS. [Archivo de video] YouTube.',
       tipo: 'VIDEO',
       link:
         'https://www.youtube.com/watch?v=YWLFrlibDJI&ab_channel=Capacitaci%C3%B3nIndustrial',
@@ -129,7 +129,7 @@ export default {
     {
       tema: 'Uso nacional e internacional',
       referencia:
-        'APRENDIZ NDT. (2022).NORMAS QUE RIGEN LA SOLDADURA. [Archivo de video] Youtube.',
+        'APRENDIZ NDT. (2022).NORMAS QUE RIGEN LA SOLDADURA. [Archivo de video] YouTube.',
       tipo: 'VIDEO',
       link:
         'https://www.youtube.com/watch?v=wWAubgtJfHI&ab_channel=APRENDIZNDT',
@@ -234,9 +234,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Ángela Viviana Páez Perilla',
-          cargo: 'Experta temático',
-          centro: 'Centro Agroindustrial - Regional Quindío',
+          nombre: 'Hivo Alfonso Patarroyo Pulido',
+          cargo: 'Experto temático',
+          centro: 'Centro de Materiales y Ensayos - Regional Distrito Capital',
         },
         {
           nombre: 'Paola Alexandra Moya',
@@ -267,7 +267,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jaime Hernán Tejada Llano',
+          nombre: 'Aixa Natalia Sendoya Fernández',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
