@@ -26,7 +26,7 @@
             .row(titulo="Siglo XVII").justify-content-center.pt-4
               .col-lg-7.mb-4.mb-md-0
                 h4 Siglo XVII
-                p.mb-4 Durante la revolución industrial, se inventa la soldadura eléctrica, marcando un gran avance al permitir uniones más precisas y resistentes en menos tiempo
+                p.mb-4 Durante la revolución industrial, se inventa la soldadura eléctrica, marcando un gran avance al permitir uniones más precisas y resistentes en menos tiempo.
               .col-lg-4
                 img.img-fluid(src="@/assets/curso/tema1/slider-1.png", style="max-width:100%", alt="").mx-auto.mb-4
 
@@ -50,7 +50,7 @@
             .row(titulo="Década de 1960").justify-content-center
               .col-lg-7.mb-4.mb-md-0
                 h4 Década de 1960
-                p.mb-4 En la carrera espacial, se emplea la soldadura plasma en proyectos como el Space Shuttle, fabricando componentes críticos como el tanque de oxígeno.
+                p.mb-4 En la carrera espacial, se emplea la soldadura plasma en proyectos como el #[em Space Shuttle], fabricando componentes críticos como el tanque de oxígeno.
               .col-lg-4
                 img.img-fluid(src="@/assets/curso/tema1/slider-4.png", style="max-width:100%", alt="").mx-auto.mb-4
 

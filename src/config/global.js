@@ -110,7 +110,7 @@ export default {
         'Interweld, C.A. (2016). La Soldadura | Maravillas Modernas. [Archivo de video] YouTube.',
       tipo: 'VIDEO',
       link:
-        'https://www.youtube.com/watch?v=Nyl2qj_hMvs&ab_channel=Interweld%2CC.A',
+        'https://www.youtube.com/watch?v=Nyl2gj_hMvs&ab_channel=Interweld%2CC.A',
     },
     {
       tema: 'Normalización en soldadura',
@@ -268,6 +268,12 @@ export default {
       autores: [
         {
           nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Jaime Hernán Tejada LLano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

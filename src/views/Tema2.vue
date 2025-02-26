@@ -140,7 +140,7 @@
           .col-lg.mb-4
             .tarjeta--boton.bg-color-4.p-4.text-center.h-100(data-aos="flip-up")
               img(src='@/assets/curso/tema2/icon-5-2.svg', alt='', style="max-width: 90px").mx-auto.mb-4
-              p.text-center Los inspectores soncertificados bajo ISO 9712.
+              p.text-center Los inspectores son certificados bajo ISO 9712.
 
         p(data-aos="fade-up").mb-5 El Código Colombiano de Construcción Sismo Resistente NSR-2010 exige que las inspecciones sean realizadas por personal certificado por ACOSEND o AWS. Cumplir con estos requisitos garantiza la trazabilidad y calidad de los componentes soldados, permitiendo que los productos sean competitivos en mercados nacionales e internacionales. 
 </template>

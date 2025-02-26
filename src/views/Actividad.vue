@@ -20,7 +20,7 @@ export default {
       tema: 'Fundamentos normativos en soldadura',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Identificar los conceptos fundamentales de normalización en soldadura, incluyendo las etapas de creación de documentos normativos.',
+        '<b>Objetivo:</b> identificar los conceptos fundamentales de normalización en soldadura, incluyendo las etapas de creación de documentos normativos.',
       barajarPreguntas: true,
       preguntas: [
         {
