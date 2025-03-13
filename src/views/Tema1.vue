@@ -55,9 +55,9 @@
                 img.img-fluid(src="@/assets/curso/tema1/slider-4.png", style="max-width:100%", alt="").mx-auto.mb-4
 
 
-            .row(titulo="Finales del siglo X").justify-content-center
+            .row(titulo="Finales del siglo XX").justify-content-center
               .col-lg-7.mb-4.mb-md-0
-                h4 Finales del siglo X
+                h4 Finales del siglo XX
                 p.mb-4 Se desarrollan tecnologías como la soldadura por haz de electrones y por fricción, aplicadas en proyectos avanzados como el avión F-22 y el Airbus A3XX.
               .col-lg-4
                 img.img-fluid(src="@/assets/curso/tema1/slider-5.png", style="max-width:100%", alt="").mx-auto.mb-4

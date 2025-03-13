@@ -111,6 +111,23 @@
 
         p(data-aos="fade-up").mb-5 A continuación, se presentan las definiciones y características de los términos esenciales utilizados en la normalización de procesos de soldadura, fundamentales para comprender su importancia y aplicación en este sector. 
 
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg.mb-4
+        .tarjeta--boton.bg-color-8.p-4.text-center.h-100(data-aos="flip-up")
+          img(src='@/assets/curso/tema2/5.png', alt='', style="max-width: 162px").mx-auto.mb-4
+          h4.text-center Código (del inglés <em>code</em>)
+          p.text-center Establece requisitos y condiciones para regular procesos como diseño, materiales, fabricación, construcción, montaje, inspección y mantenimiento, entre otros. En Colombia adquiere carácter legal tras su publicación en el Diario Oficial (por ejemplo, NSR-2010).
+      .col-lg.mb-4
+        .tarjeta--boton.bg-color-8.p-4.text-center.h-100(data-aos="flip-up")
+          img(src='@/assets/curso/tema2/6.png', alt='', style="max-width: 162px").mx-auto.mb-4
+          h4.text-center El término “norma”
+          p.text-center Aplica a especificaciones, códigos, métodos, prácticas recomendadas y clasificaciones aprobadas por comités especializados como AWS, ASTM, ASME y ANSI.
+      .col-lg.mb-4
+        .tarjeta--boton.bg-color-8.p-4.text-center.h-100(data-aos="flip-up")
+          img(src='@/assets/curso/tema2/7.png', alt='', style="max-width: 162px").mx-auto.mb-4
+          h4.text-center Especificación (del inglés <em>specification</em>)
+          p.text-center Describe de forma clara los requisitos técnicos para materiales, productos o servicios, incluyendo procedimientos y métodos para verificar su cumplimiento.
+
     Separador
     .bg-full-width.bg-fondo-4
       .px-4.px-md-5.pb-4.pb-md-5
