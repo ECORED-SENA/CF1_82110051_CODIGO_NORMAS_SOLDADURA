@@ -22,6 +22,8 @@ export default {
       introduccion:
         '<b>Objetivo:</b> identificar los conceptos fundamentales de normalización en soldadura, incluyendo las etapas de creación de documentos normativos.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,

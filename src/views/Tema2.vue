@@ -54,8 +54,8 @@
           .col-xl(data-aos="fade-left")
             .px-4.py-3
               p.mb-0 ICONTEC representa a Colombia ante organismos internacionales y regionales de normalización, como ISO, IEC y COPANT. También apoya al Gobierno Nacional en negociaciones comerciales, como las relacionadas con la Comunidad Andina, el ALCA y el TLC con Estados Unidos. Los procesos de normalización en soldadura incluyen diversas etapas clave que garantizan la calidad, transparencia y aplicabilidad de los documentos normativos. A continuación, se describen brevemente las principales fases involucradas en su elaboración y gestión: 
-          .col-xl-auto(data-aos="fade-right")
-            img(src="@/assets/curso/tema1/1.svg", style="max-width: 190px", alt="").m-auto.mb-xl-0.mb-4
+          .col-xl-auto(data-aos="fade-right").d-none.d-xl-block
+            img(src="@/assets/curso/tema1/1.svg", style="max-width: 190px", alt="").mx-auto
 
 
 
@@ -71,35 +71,35 @@
                   .col-lg
                     p.mb-0 Identificar necesidades, evaluar la viabilidad y planificar actividades para elaborar o actualizar documentos normativos. 
                   .col-lg-auto
-                    img(src="@/assets/curso/tema2/icon-1.svg", alt="alt")
+                    img(src="@/assets/curso/tema2/icon-1.svg", alt="alt", style="max-width: 90px")
 
               div(titulo="Conformación del comité de normalización ")
                 .row.align-items-center
                   .col-lg
                     p.mb-0 Coordinar la evaluación y aprobación de documentos normativos en comités técnicos, realizando actividades complementarias como corrección de estilo y traducción. 
                   .col-lg-auto
-                    img(src="@/assets/curso/tema2/icon-2.svg", alt="alt")
+                    img(src="@/assets/curso/tema2/icon-2.svg", alt="alt", style="max-width: 90px")
 
               div(titulo="Consulta pública de documentos de borradores")
                 .row.align-items-center
                   .col-lg
                     p.mb-0 Someter los proyectos normativos a revisión pública para garantizar transparencia e imparcialidad. Se envían borradores identificados con las letras DE. 
                   .col-lg-auto
-                    img(src="@/assets/curso/tema2/icon-4.svg", alt="alt")
+                    img(src="@/assets/curso/tema2/icon-4.svg", alt="alt", style="max-width: 90px")
               
               div(titulo="Aprobación de documentos corregidos")
                 .row.align-items-center
                   .col-lg
                     p.mb-0 El documento normativo es revisado por una entidad independiente del comité para validar acuerdos técnicos, coherencia normativa y cumplimiento del reglamento. 
                   .col-lg-auto
-                    img(src="@/assets/curso/tema2/icon-5.svg", alt="alt")
+                    img(src="@/assets/curso/tema2/icon-5.svg", alt="alt", style="max-width: 90px")
 
               div(titulo="Edición")
                 .row.align-items-center
                   .col-lg
                     p.mb-0 Asegurar la disponibilidad de las versiones vigentes y divulgar los documentos a través de medios electrónicos, foros y charlas técnicas. 
                   .col-lg-auto
-                    img(src="@/assets/curso/tema2/icon-6.svg", alt="alt")
+                    img(src="@/assets/curso/tema2/icon-6.svg", alt="alt", style="max-width: 90px")
 
 
               div(titulo="Publicación")
@@ -107,7 +107,7 @@
                   .col-lg
                     p.mb-0 Informar al público sobre la disponibilidad del documento normativo para su uso por organizaciones que requieran certificar productos o servicios. 
                   .col-lg-auto
-                    img(src="@/assets/curso/tema2/icon-7.svg", alt="alt")
+                    img(src="@/assets/curso/tema2/icon-7.svg", alt="alt", style="max-width: 90px")
 
         p(data-aos="fade-up").mb-5 A continuación, se presentan las definiciones y características de los términos esenciales utilizados en la normalización de procesos de soldadura, fundamentales para comprender su importancia y aplicación en este sector. 
 
