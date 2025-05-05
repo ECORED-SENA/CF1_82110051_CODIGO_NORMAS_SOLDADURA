@@ -2,25 +2,22 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1  Normalización en soldadura
 
-
     .bg-full-width.bg-fondo-1
-      .px-4.px-md-5.pb-4.pb-md-5
+      .px-4.px-md-5
 
         p(data-aos="fade-up").mb-5 El criterio de normalización incluye la necesidad de establecer acuerdos entre los diversos sectores de producción, como respuesta a los desafíos y requisitos impuestos por la globalización, donde los estándares de calidad exigen a los fabricantes entregar productos altamente competitivos y seguros. 
 
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 La normalización en trabajos de soldadura constituye herramientas legales que garantizan el cumplimiento de requisitos técnicos orientados a proteger la vida humana, preservar los recursos naturales, fomentar el desarrollo económico del país y promover avances tecnológicos e investigaciones relacionadas con la soldadura. 
-
-
+            p.mb-0 La normalización en trabajos de soldadura constituye herramientas legales que garantizan el cumplimiento de requisitos técnicos orientados a proteger la vida humana, preservar los recursos naturales, fomentar el desarrollo económico del país y promover avances tecnológicos e investigaciones relacionadas con la soldadura.
         
         .row.justify-content-center.align-items-stretch.mb-5
           .col-xl-8(data-aos="fade-left")
@@ -38,9 +35,7 @@
             .tarjeta.bg-color-3.p-4.h-100
               p.mb-0 En el ámbito de la soldadura, los documentos normativos se fundamentan en experiencias relacionadas con diseño, fabricación, montaje, inspección y desmontaje, sustentadas en análisis matemáticos y procedimientos documentados. Estos procesos garantizan la trazabilidad y calidad en las construcciones soldadas.
 
-
-        p(data-aos="fade-up").mb-5 En el caso específico de la soldadura, los documentos normativos son de carácter obligatorio, especialmente cuando se firman contratos para fabricar componentes soldados. El incumplimiento de estos requisitos puede ocasionar fallas graves en productos soldados como puentes, oleoductos, edificios, calderas, barcos, trenes o plantas petroquímicas, con consecuencias fatales, daños ambientales o pérdidas económicas significativas. Por ello, es crucial contar con talento humano capacitado y certificado para manejar códigos, normas y especificaciones en soldadura. 
-
+        p(data-aos="fade-up") En el caso específico de la soldadura, los documentos normativos son de carácter obligatorio, especialmente cuando se firman contratos para fabricar componentes soldados. El incumplimiento de estos requisitos puede ocasionar fallas graves en productos soldados como puentes, oleoductos, edificios, calderas, barcos, trenes o plantas petroquímicas, con consecuencias fatales, daños ambientales o pérdidas económicas significativas. Por ello, es crucial contar con talento humano capacitado y certificado para manejar códigos, normas y especificaciones en soldadura. 
 
     Separador
 
@@ -57,61 +52,58 @@
           .col-xl-auto(data-aos="fade-right").d-none.d-xl-block
             img(src="@/assets/curso/tema1/1.svg", style="max-width: 190px", alt="").mx-auto
 
-
-
         .row.justify-content-center.mb-5
-          .col-lg-3
+          .col-lg-3.mb-4.mb-lg-0
             figure
-              img(src="@/assets/curso/tema2/4.png", alt="alt")
+              img(src="@/assets/curso/tema2/4.png", alt="", style="max-width: 300px").m-auto
 
           .col-lg-9
             AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-2")
               div(titulo="Planeación ")
                 .row.align-items-center
-                  .col-lg
+                  .col-lg.mb-4.mb-lg-0
                     p.mb-0 Identificar necesidades, evaluar la viabilidad y planificar actividades para elaborar o actualizar documentos normativos. 
                   .col-lg-auto
-                    img(src="@/assets/curso/tema2/icon-1.svg", alt="alt", style="max-width: 90px")
+                    img(src="@/assets/curso/tema2/icon-1.svg", alt="alt", style="max-width: 90px").m-auto
 
               div(titulo="Conformación del comité de normalización ")
                 .row.align-items-center
-                  .col-lg
+                  .col-lg.mb-4.mb-lg-0
                     p.mb-0 Coordinar la evaluación y aprobación de documentos normativos en comités técnicos, realizando actividades complementarias como corrección de estilo y traducción. 
                   .col-lg-auto
-                    img(src="@/assets/curso/tema2/icon-2.svg", alt="alt", style="max-width: 90px")
+                    img(src="@/assets/curso/tema2/icon-2.svg", alt="alt", style="max-width: 90px").m-auto
 
               div(titulo="Consulta pública de documentos de borradores")
                 .row.align-items-center
-                  .col-lg
+                  .col-lg.mb-4.mb-lg-0
                     p.mb-0 Someter los proyectos normativos a revisión pública para garantizar transparencia e imparcialidad. Se envían borradores identificados con las letras DE. 
                   .col-lg-auto
-                    img(src="@/assets/curso/tema2/icon-4.svg", alt="alt", style="max-width: 90px")
+                    img(src="@/assets/curso/tema2/icon-4.svg", alt="alt", style="max-width: 90px").m-auto
               
               div(titulo="Aprobación de documentos corregidos")
                 .row.align-items-center
-                  .col-lg
+                  .col-lg.mb-4.mb-lg-0
                     p.mb-0 El documento normativo es revisado por una entidad independiente del comité para validar acuerdos técnicos, coherencia normativa y cumplimiento del reglamento. 
                   .col-lg-auto
-                    img(src="@/assets/curso/tema2/icon-5.svg", alt="alt", style="max-width: 90px")
+                    img(src="@/assets/curso/tema2/icon-5.svg", alt="alt", style="max-width: 90px").m-auto
 
               div(titulo="Edición")
                 .row.align-items-center
-                  .col-lg
+                  .col-lg.mb-4.mb-lg-0
                     p.mb-0 Asegurar la disponibilidad de las versiones vigentes y divulgar los documentos a través de medios electrónicos, foros y charlas técnicas. 
                   .col-lg-auto
-                    img(src="@/assets/curso/tema2/icon-6.svg", alt="alt", style="max-width: 90px")
-
+                    img(src="@/assets/curso/tema2/icon-6.svg", alt="alt", style="max-width: 90px").m-auto
 
               div(titulo="Publicación")
                 .row.align-items-center
-                  .col-lg
+                  .col-lg.mb-4.mb-lg-0
                     p.mb-0 Informar al público sobre la disponibilidad del documento normativo para su uso por organizaciones que requieran certificar productos o servicios. 
                   .col-lg-auto
-                    img(src="@/assets/curso/tema2/icon-7.svg", alt="alt", style="max-width: 90px")
+                    img(src="@/assets/curso/tema2/icon-7.svg", alt="alt", style="max-width: 90px").m-auto
 
-        p(data-aos="fade-up").mb-5 A continuación, se presentan las definiciones y características de los términos esenciales utilizados en la normalización de procesos de soldadura, fundamentales para comprender su importancia y aplicación en este sector. 
+        p(data-aos="fade-up") A continuación, se presentan las definiciones y características de los términos esenciales utilizados en la normalización de procesos de soldadura, fundamentales para comprender su importancia y aplicación en este sector. 
 
-    .row.justify-content-center.align-items-stretch.mb-5
+    .row.justify-content-center.align-items-stretch
       .col-lg.mb-4
         .tarjeta--boton.bg-color-8.p-4.text-center.h-100(data-aos="flip-up")
           img(src='@/assets/curso/tema2/5.png', alt='', style="max-width: 162px").mx-auto.mb-4
@@ -159,7 +151,8 @@
               img(src='@/assets/curso/tema2/icon-5-2.svg', alt='', style="max-width: 90px").mx-auto.mb-4
               p.text-center Los inspectores son certificados bajo ISO 9712.
 
-        p(data-aos="fade-up").mb-5 El Código Colombiano de Construcción Sismo Resistente NSR-2010 exige que las inspecciones sean realizadas por personal certificado por ACOSEND o AWS. Cumplir con estos requisitos garantiza la trazabilidad y calidad de los componentes soldados, permitiendo que los productos sean competitivos en mercados nacionales e internacionales. 
+        p(data-aos="fade-up") El Código Colombiano de Construcción Sismo Resistente NSR-2010 exige que las inspecciones sean realizadas por personal certificado por ACOSEND o AWS. Cumplir con estos requisitos garantiza la trazabilidad y calidad de los componentes soldados, permitiendo que los productos sean competitivos en mercados nacionales e internacionales.
+
 </template>
 
 <script>

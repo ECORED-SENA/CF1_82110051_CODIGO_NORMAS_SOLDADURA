@@ -2,11 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Antecedentes de la soldadura
-
 
     .bg-full-width.bg-fondo-2
       .px-4.px-md-5.pb-4.pb-md-5
@@ -18,8 +17,7 @@
           .col-xl-auto(data-aos="fade-right")
             img(src="@/assets/curso/tema1/1.svg", style="max-width: 190px", alt="").m-auto.mb-xl-0.mb-4
 
-
-    .bg-full-width.bg-fondo-slider.mb-5
+    .bg-full-width.bg-fondo-slider
       .p-4.p-md-5
         .tarjeta.bg-white.p-4.p-lg-5.pb-lg-4.shadow-soft(data-aos="fade-down")
           LineaTiempoC.color-acento-contenido(text-small).px-4(data-aos="fade-up")
@@ -30,14 +28,12 @@
               .col-lg-4
                 img.img-fluid(src="@/assets/curso/tema1/slider-1.png", style="max-width:100%", alt="").mx-auto.mb-4
 
-
             .row(titulo="Comienzo del siglo XX").justify-content-center
               .col-lg-7.mb-4.mb-md-0
                 h4 Comienzo del siglo XX
                 p.mb-4 La soldadura es reconocida como un proceso esencial y complejo. Se incorporan disciplinas científicas como física de plasmas, electromagnetismo y metalurgia.
               .col-lg-4
                 img.img-fluid(src="@/assets/curso/tema1/slider-2.png", style="max-width:100%", alt="").mx-auto.mb-4
-
 
             .row(titulo="Mitad del siglo XX").justify-content-center
               .col-lg-7.mb-4.mb-md-0
@@ -46,14 +42,12 @@
               .col-lg-4
                 img.img-fluid(src="@/assets/curso/tema1/slider-3.png", style="max-width:100%", alt="").mx-auto.mb-4
 
-
             .row(titulo="Década de 1960").justify-content-center
               .col-lg-7.mb-4.mb-md-0
                 h4 Década de 1960
                 p.mb-4 En la carrera espacial, se emplea la soldadura plasma en proyectos como el #[em Space Shuttle], fabricando componentes críticos como el tanque de oxígeno.
               .col-lg-4
                 img.img-fluid(src="@/assets/curso/tema1/slider-4.png", style="max-width:100%", alt="").mx-auto.mb-4
-
 
             .row(titulo="Finales del siglo XX").justify-content-center
               .col-lg-7.mb-4.mb-md-0
@@ -62,7 +56,6 @@
               .col-lg-4
                 img.img-fluid(src="@/assets/curso/tema1/slider-5.png", style="max-width:100%", alt="").mx-auto.mb-4
  
-
             .row(titulo="Siglo XXI (actualidad)").justify-content-center
               .col-lg-7.mb-4.mb-md-0
                 h4 Siglo XXI (actualidad)
@@ -78,6 +71,14 @@ export default {
   data: () => ({
     mostrarIndicadorTarjetaAudio: true,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

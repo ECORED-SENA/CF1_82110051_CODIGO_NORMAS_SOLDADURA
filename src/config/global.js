@@ -89,7 +89,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/82110051_CF01_DU.pdf',
+        download: 'downloads/82110051_CF01_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -234,9 +234,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Hivo Alfonso Patarroyo Pulido',
+          nombre: 'Ángela Viviana Páez Perilla',
           cargo: 'Experto temático',
-          centro: 'Centro de Materiales y Ensayos - Regional Distrito Capital',
+          centro: 'Centro Agroindustrial - Regional Quindío',
         },
         {
           nombre: 'Paola Alexandra Moya',
@@ -251,7 +251,7 @@ export default {
       autores: [
         {
           nombre: 'Carlos Julián Ramírez Benítez',
-          cargo: 'Diseñador de contenidos',
+          cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -267,26 +267,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Aixa Natalia Sendoya Fernández',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
           nombre: 'Jaime Hernán Tejada LLano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },
-        {
-          nombre: 'Raúl Mosquera Serrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
