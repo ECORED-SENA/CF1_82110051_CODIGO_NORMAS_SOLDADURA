@@ -234,9 +234,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Ángela Viviana Páez Perilla',
+          nombre: 'Hivo Alfonso Patarroyo Pulido',
           cargo: 'Experto temático',
-          centro: 'Centro Agroindustrial - Regional Quindío',
+          centro: 'Centro de Materiales y Ensayos - Regional Distrito Capital',
         },
         {
           nombre: 'Paola Alexandra Moya',
@@ -267,7 +267,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jaime Hernán Tejada LLano',
+          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
